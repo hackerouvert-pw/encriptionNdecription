@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>THE ENIGMA MACHINE</title>
+	</head>
+
+	<body>
+		<h2>THE ENIGMA MACHINE</h2>
+
+		<p><textarea id='message'></textarea></p>
+		<button onclick='cypher()'>GIVE ME GIBERISH!!</button>
+
+		<p><div id='answer'></div></p>
+		<button onclick='clean()'>Clear</button>
+
+		<div>
+			Rotor 1:  <span id="R1value"></span>
+		</div>
+		<div>
+			Rotor 2:  <span id="R2value"></span>
+		</div>
+		<div>
+			Rotor 3:  <span id="R3value"></div>
+		</div>
+		<button onclick='reset()'>Reset Rotors</button>
+
+		<script src="enigma.js"></script>
+	</body>
+</html>
+
+
